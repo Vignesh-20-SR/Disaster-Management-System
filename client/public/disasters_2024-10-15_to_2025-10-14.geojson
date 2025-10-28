@@ -1,0 +1,4405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "date": "2025-01-28",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 180708,
+        "deaths": 100,
+        "damages_usd": 610350295,
+        "description": "Storm (Cyclone) impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "date": "2025-06-03",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Turkey",
+        "region": "Istanbul",
+        "affected_population": 548821,
+        "deaths": 122,
+        "damages_usd": 781246045,
+        "description": "Volcanic Eruption impacting Istanbul, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          41.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "date": "2024-10-22",
+        "disaster_type": "Drought",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 350146,
+        "deaths": 182,
+        "damages_usd": 278220339,
+        "description": "Drought impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "date": "2024-12-31",
+        "disaster_type": "Earthquake",
+        "country": "Bangladesh",
+        "region": "Sylhet",
+        "affected_population": 484993,
+        "deaths": 202,
+        "damages_usd": 598718172,
+        "description": "Earthquake impacting Sylhet, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.9,
+          24.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "date": "2025-05-26",
+        "disaster_type": "Volcanic Eruption",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 393789,
+        "deaths": 85,
+        "damages_usd": 111782176,
+        "description": "Volcanic Eruption impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "date": "2024-10-30",
+        "disaster_type": "Earthquake",
+        "country": "Brazil",
+        "region": "Amazonas",
+        "affected_population": 341697,
+        "deaths": 115,
+        "damages_usd": 295970506,
+        "description": "Earthquake impacting Amazonas, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          -3.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "date": "2024-10-24",
+        "disaster_type": "Earthquake",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 403212,
+        "deaths": 4,
+        "damages_usd": 652782692,
+        "description": "Earthquake impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "date": "2025-03-29",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 115562,
+        "deaths": 20,
+        "damages_usd": 249736908,
+        "description": "Storm (Cyclone) impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "date": "2025-09-03",
+        "disaster_type": "Landslide",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 428229,
+        "deaths": 90,
+        "damages_usd": 541073784,
+        "description": "Landslide impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "date": "2025-02-24",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 149244,
+        "deaths": 71,
+        "damages_usd": 558767842,
+        "description": "Storm (Cyclone) impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "date": "2024-12-07",
+        "disaster_type": "Heatwave",
+        "country": "Philippines",
+        "region": "Luzon",
+        "affected_population": 7560,
+        "deaths": 32,
+        "damages_usd": 610691639,
+        "description": "Heatwave impacting Luzon, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          14.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "date": "2024-11-30",
+        "disaster_type": "Earthquake",
+        "country": "Indonesia",
+        "region": "Java",
+        "affected_population": 502945,
+        "deaths": 81,
+        "damages_usd": 849194242,
+        "description": "Earthquake impacting Java, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.8,
+          -7.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "date": "2025-06-28",
+        "disaster_type": "Drought",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 261880,
+        "deaths": 45,
+        "damages_usd": 794748384,
+        "description": "Drought impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "date": "2025-01-30",
+        "disaster_type": "Wildfire",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 199039,
+        "deaths": 139,
+        "damages_usd": 314934316,
+        "description": "Wildfire impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "date": "2025-07-13",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 555043,
+        "deaths": 88,
+        "damages_usd": 827565739,
+        "description": "Storm (Cyclone) impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "date": "2024-11-29",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 343528,
+        "deaths": 79,
+        "damages_usd": 215637285,
+        "description": "Storm (Cyclone) impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "date": "2025-04-11",
+        "disaster_type": "Volcanic Eruption",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 265961,
+        "deaths": 239,
+        "damages_usd": 508372400,
+        "description": "Volcanic Eruption impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "date": "2025-05-22",
+        "disaster_type": "Landslide",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 269151,
+        "deaths": 250,
+        "damages_usd": 251025715,
+        "description": "Landslide impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "date": "2025-04-20",
+        "disaster_type": "Landslide",
+        "country": "USA",
+        "region": "California",
+        "affected_population": 257981,
+        "deaths": 64,
+        "damages_usd": 19854300,
+        "description": "Landslide impacting California, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4,
+          36.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "date": "2025-01-15",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 144427,
+        "deaths": 41,
+        "damages_usd": 695861641,
+        "description": "Volcanic Eruption impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "date": "2025-02-24",
+        "disaster_type": "Landslide",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 93184,
+        "deaths": 18,
+        "damages_usd": 665650779,
+        "description": "Landslide impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "date": "2025-05-27",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 490339,
+        "deaths": 87,
+        "damages_usd": 686025310,
+        "description": "Volcanic Eruption impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "date": "2025-08-05",
+        "disaster_type": "Heatwave",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 542552,
+        "deaths": 62,
+        "damages_usd": 102334859,
+        "description": "Heatwave impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "date": "2024-10-29",
+        "disaster_type": "Wildfire",
+        "country": "Nigeria",
+        "region": "Kano",
+        "affected_population": 200538,
+        "deaths": 35,
+        "damages_usd": 493093797,
+        "description": "Wildfire impacting Kano, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "date": "2025-04-24",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Bangladesh",
+        "region": "Sylhet",
+        "affected_population": 574201,
+        "deaths": 56,
+        "damages_usd": 445888190,
+        "description": "Volcanic Eruption impacting Sylhet, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.9,
+          24.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "date": "2024-10-19",
+        "disaster_type": "Landslide",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 31398,
+        "deaths": 44,
+        "damages_usd": 580200173,
+        "description": "Landslide impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "date": "2025-02-20",
+        "disaster_type": "Landslide",
+        "country": "Turkey",
+        "region": "Istanbul",
+        "affected_population": 106608,
+        "deaths": 90,
+        "damages_usd": 107803123,
+        "description": "Landslide impacting Istanbul, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          41.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "date": "2025-08-21",
+        "disaster_type": "Landslide",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 81246,
+        "deaths": 120,
+        "damages_usd": 700188771,
+        "description": "Landslide impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "date": "2025-09-17",
+        "disaster_type": "Heatwave",
+        "country": "Ethiopia",
+        "region": "Somali",
+        "affected_population": 532964,
+        "deaths": 190,
+        "damages_usd": 317795215,
+        "description": "Heatwave impacting Somali, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "date": "2025-01-05",
+        "disaster_type": "Drought",
+        "country": "Ethiopia",
+        "region": "Somali",
+        "affected_population": 266088,
+        "deaths": 113,
+        "damages_usd": 771104578,
+        "description": "Drought impacting Somali, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "date": "2024-12-08",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Australia",
+        "region": "New South Wales",
+        "affected_population": 86090,
+        "deaths": 237,
+        "damages_usd": 808542115,
+        "description": "Storm (Cyclone) impacting New South Wales, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2,
+          -33.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "date": "2025-09-11",
+        "disaster_type": "Heatwave",
+        "country": "Pakistan",
+        "region": "Sindh",
+        "affected_population": 72085,
+        "deaths": 135,
+        "damages_usd": 225818443,
+        "description": "Heatwave impacting Sindh, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          25.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "date": "2024-11-13",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 579896,
+        "deaths": 47,
+        "damages_usd": 235886578,
+        "description": "Storm (Cyclone) impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "date": "2024-11-26",
+        "disaster_type": "Wildfire",
+        "country": "South Africa",
+        "region": "Gauteng",
+        "affected_population": 320147,
+        "deaths": 148,
+        "damages_usd": 523503799,
+        "description": "Wildfire impacting Gauteng, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0,
+          -26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "date": "2024-10-29",
+        "disaster_type": "Heatwave",
+        "country": "Ethiopia",
+        "region": "Somali",
+        "affected_population": 63127,
+        "deaths": 243,
+        "damages_usd": 314942772,
+        "description": "Heatwave impacting Somali, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "date": "2025-04-09",
+        "disaster_type": "Drought",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 499969,
+        "deaths": 114,
+        "damages_usd": 362008921,
+        "description": "Drought impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "date": "2025-08-10",
+        "disaster_type": "Drought",
+        "country": "Philippines",
+        "region": "Luzon",
+        "affected_population": 212176,
+        "deaths": 126,
+        "damages_usd": 622903224,
+        "description": "Drought impacting Luzon, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          14.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "date": "2025-01-24",
+        "disaster_type": "Landslide",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 214362,
+        "deaths": 208,
+        "damages_usd": 371381842,
+        "description": "Landslide impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "date": "2025-02-27",
+        "disaster_type": "Heatwave",
+        "country": "South Africa",
+        "region": "Gauteng",
+        "affected_population": 232994,
+        "deaths": 24,
+        "damages_usd": 324862591,
+        "description": "Heatwave impacting Gauteng, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0,
+          -26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "date": "2025-10-08",
+        "disaster_type": "Earthquake",
+        "country": "Turkey",
+        "region": "Istanbul",
+        "affected_population": 142062,
+        "deaths": 175,
+        "damages_usd": 550453184,
+        "description": "Earthquake impacting Istanbul, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          41.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "date": "2025-02-04",
+        "disaster_type": "Landslide",
+        "country": "UK",
+        "region": "Scotland",
+        "affected_population": 238509,
+        "deaths": 23,
+        "damages_usd": 772437176,
+        "description": "Landslide impacting Scotland, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3,
+          56.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "date": "2025-02-24",
+        "disaster_type": "Drought",
+        "country": "Nigeria",
+        "region": "Kano",
+        "affected_population": 243027,
+        "deaths": 110,
+        "damages_usd": 421541066,
+        "description": "Drought impacting Kano, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "date": "2024-12-06",
+        "disaster_type": "Drought",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 461587,
+        "deaths": 100,
+        "damages_usd": 711016189,
+        "description": "Drought impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "date": "2025-10-02",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 211677,
+        "deaths": 32,
+        "damages_usd": 640198373,
+        "description": "Volcanic Eruption impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "date": "2025-03-11",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Brazil",
+        "region": "Amazonas",
+        "affected_population": 252471,
+        "deaths": 122,
+        "damages_usd": 626029466,
+        "description": "Storm (Cyclone) impacting Amazonas, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          -3.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "date": "2025-08-31",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Nepal",
+        "region": "Bagmati",
+        "affected_population": 545980,
+        "deaths": 203,
+        "damages_usd": 564889567,
+        "description": "Volcanic Eruption impacting Bagmati, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3,
+          27.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "date": "2024-12-18",
+        "disaster_type": "Earthquake",
+        "country": "Nigeria",
+        "region": "Kano",
+        "affected_population": 436000,
+        "deaths": 172,
+        "damages_usd": 399601196,
+        "description": "Earthquake impacting Kano, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "date": "2025-09-30",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Mexico",
+        "region": "Yucatan",
+        "affected_population": 49765,
+        "deaths": 86,
+        "damages_usd": 217062300,
+        "description": "Storm (Cyclone) impacting Yucatan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6,
+          20.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "date": "2025-10-10",
+        "disaster_type": "Flood",
+        "country": "Turkey",
+        "region": "Istanbul",
+        "affected_population": 596391,
+        "deaths": 218,
+        "damages_usd": 147758914,
+        "description": "Flood impacting Istanbul, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          41.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "date": "2025-01-25",
+        "disaster_type": "Heatwave",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 120437,
+        "deaths": 164,
+        "damages_usd": 712720294,
+        "description": "Heatwave impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "date": "2025-08-23",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Ethiopia",
+        "region": "Somali",
+        "affected_population": 546128,
+        "deaths": 128,
+        "damages_usd": 863480299,
+        "description": "Volcanic Eruption impacting Somali, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 52,
+        "date": "2025-05-21",
+        "disaster_type": "Heatwave",
+        "country": "Philippines",
+        "region": "Luzon",
+        "affected_population": 137788,
+        "deaths": 228,
+        "damages_usd": 759809217,
+        "description": "Heatwave impacting Luzon, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          14.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "date": "2025-04-16",
+        "disaster_type": "Landslide",
+        "country": "Australia",
+        "region": "New South Wales",
+        "affected_population": 486067,
+        "deaths": 31,
+        "damages_usd": 248667326,
+        "description": "Landslide impacting New South Wales, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2,
+          -33.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "date": "2025-06-13",
+        "disaster_type": "Landslide",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 217685,
+        "deaths": 236,
+        "damages_usd": 290541666,
+        "description": "Landslide impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 55,
+        "date": "2025-03-31",
+        "disaster_type": "Earthquake",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 223621,
+        "deaths": 51,
+        "damages_usd": 449030212,
+        "description": "Earthquake impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "date": "2025-05-18",
+        "disaster_type": "Landslide",
+        "country": "UK",
+        "region": "Scotland",
+        "affected_population": 277193,
+        "deaths": 218,
+        "damages_usd": 789860922,
+        "description": "Landslide impacting Scotland, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3,
+          56.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "date": "2025-05-21",
+        "disaster_type": "Earthquake",
+        "country": "Nigeria",
+        "region": "Kano",
+        "affected_population": 553250,
+        "deaths": 116,
+        "damages_usd": 707879720,
+        "description": "Earthquake impacting Kano, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 58,
+        "date": "2025-02-23",
+        "disaster_type": "Heatwave",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 525587,
+        "deaths": 191,
+        "damages_usd": 772803662,
+        "description": "Heatwave impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 59,
+        "date": "2024-12-22",
+        "disaster_type": "Earthquake",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 65165,
+        "deaths": 189,
+        "damages_usd": 177655131,
+        "description": "Earthquake impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "date": "2025-07-11",
+        "disaster_type": "Drought",
+        "country": "UK",
+        "region": "Scotland",
+        "affected_population": 520901,
+        "deaths": 146,
+        "damages_usd": 55869694,
+        "description": "Drought impacting Scotland, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3,
+          56.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "date": "2025-02-04",
+        "disaster_type": "Wildfire",
+        "country": "Germany",
+        "region": "Bavaria",
+        "affected_population": 160362,
+        "deaths": 228,
+        "damages_usd": 717677172,
+        "description": "Wildfire impacting Bavaria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          48.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "date": "2024-10-16",
+        "disaster_type": "Drought",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 169407,
+        "deaths": 213,
+        "damages_usd": 10856901,
+        "description": "Drought impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "date": "2025-10-12",
+        "disaster_type": "Earthquake",
+        "country": "Philippines",
+        "region": "Luzon",
+        "affected_population": 376728,
+        "deaths": 23,
+        "damages_usd": 645638072,
+        "description": "Earthquake impacting Luzon, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          14.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 64,
+        "date": "2024-11-09",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Argentina",
+        "region": "Cordoba",
+        "affected_population": 132348,
+        "deaths": 217,
+        "damages_usd": 519994724,
+        "description": "Storm (Cyclone) impacting Cordoba, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2,
+          -31.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 65,
+        "date": "2025-09-12",
+        "disaster_type": "Heatwave",
+        "country": "USA",
+        "region": "California",
+        "affected_population": 171610,
+        "deaths": 127,
+        "damages_usd": 313265446,
+        "description": "Heatwave impacting California, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4,
+          36.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "date": "2025-04-06",
+        "disaster_type": "Wildfire",
+        "country": "South Africa",
+        "region": "Gauteng",
+        "affected_population": 47277,
+        "deaths": 90,
+        "damages_usd": 29405507,
+        "description": "Wildfire impacting Gauteng, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0,
+          -26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "date": "2025-03-26",
+        "disaster_type": "Wildfire",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 71739,
+        "deaths": 97,
+        "damages_usd": 396090973,
+        "description": "Wildfire impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "date": "2025-01-14",
+        "disaster_type": "Drought",
+        "country": "USA",
+        "region": "California",
+        "affected_population": 168265,
+        "deaths": 182,
+        "damages_usd": 765272002,
+        "description": "Drought impacting California, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4,
+          36.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 69,
+        "date": "2025-03-10",
+        "disaster_type": "Drought",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 6938,
+        "deaths": 88,
+        "damages_usd": 498093621,
+        "description": "Drought impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 70,
+        "date": "2025-09-14",
+        "disaster_type": "Heatwave",
+        "country": "USA",
+        "region": "California",
+        "affected_population": 475737,
+        "deaths": 13,
+        "damages_usd": 27329897,
+        "description": "Heatwave impacting California, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4,
+          36.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 71,
+        "date": "2025-08-11",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 508528,
+        "deaths": 143,
+        "damages_usd": 742276237,
+        "description": "Storm (Cyclone) impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 72,
+        "date": "2025-02-22",
+        "disaster_type": "Earthquake",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 313042,
+        "deaths": 176,
+        "damages_usd": 377820500,
+        "description": "Earthquake impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 73,
+        "date": "2025-05-13",
+        "disaster_type": "Earthquake",
+        "country": "Argentina",
+        "region": "Cordoba",
+        "affected_population": 114398,
+        "deaths": 31,
+        "damages_usd": 444591905,
+        "description": "Earthquake impacting Cordoba, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2,
+          -31.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 74,
+        "date": "2024-11-18",
+        "disaster_type": "Flood",
+        "country": "Bangladesh",
+        "region": "Sylhet",
+        "affected_population": 390467,
+        "deaths": 20,
+        "damages_usd": 409014197,
+        "description": "Flood impacting Sylhet, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.9,
+          24.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 75,
+        "date": "2024-11-09",
+        "disaster_type": "Earthquake",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 574457,
+        "deaths": 221,
+        "damages_usd": 117589051,
+        "description": "Earthquake impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 76,
+        "date": "2025-05-06",
+        "disaster_type": "Flood",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 525646,
+        "deaths": 33,
+        "damages_usd": 783133991,
+        "description": "Flood impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 77,
+        "date": "2024-11-15",
+        "disaster_type": "Drought",
+        "country": "Nigeria",
+        "region": "Kano",
+        "affected_population": 558557,
+        "deaths": 175,
+        "damages_usd": 839629758,
+        "description": "Drought impacting Kano, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 78,
+        "date": "2025-05-04",
+        "disaster_type": "Flood",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 293425,
+        "deaths": 205,
+        "damages_usd": 405849203,
+        "description": "Flood impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 79,
+        "date": "2025-06-18",
+        "disaster_type": "Flood",
+        "country": "South Africa",
+        "region": "Gauteng",
+        "affected_population": 43093,
+        "deaths": 28,
+        "damages_usd": 873141556,
+        "description": "Flood impacting Gauteng, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0,
+          -26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 80,
+        "date": "2025-02-11",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 282868,
+        "deaths": 106,
+        "damages_usd": 12925538,
+        "description": "Storm (Cyclone) impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 81,
+        "date": "2025-05-25",
+        "disaster_type": "Wildfire",
+        "country": "Mexico",
+        "region": "Yucatan",
+        "affected_population": 114814,
+        "deaths": 25,
+        "damages_usd": 210653061,
+        "description": "Wildfire impacting Yucatan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6,
+          20.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 82,
+        "date": "2025-09-11",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Ethiopia",
+        "region": "Somali",
+        "affected_population": 590381,
+        "deaths": 210,
+        "damages_usd": 116000735,
+        "description": "Storm (Cyclone) impacting Somali, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "date": "2025-01-09",
+        "disaster_type": "Volcanic Eruption",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 286391,
+        "deaths": 52,
+        "damages_usd": 661895956,
+        "description": "Volcanic Eruption impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "date": "2025-07-23",
+        "disaster_type": "Flood",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 65178,
+        "deaths": 174,
+        "damages_usd": 326167287,
+        "description": "Flood impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "date": "2025-04-01",
+        "disaster_type": "Landslide",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 254400,
+        "deaths": 14,
+        "damages_usd": 583178431,
+        "description": "Landslide impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "date": "2025-08-17",
+        "disaster_type": "Heatwave",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 254063,
+        "deaths": 136,
+        "damages_usd": 272972508,
+        "description": "Heatwave impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "date": "2024-12-12",
+        "disaster_type": "Landslide",
+        "country": "Bangladesh",
+        "region": "Sylhet",
+        "affected_population": 282752,
+        "deaths": 66,
+        "damages_usd": 284314347,
+        "description": "Landslide impacting Sylhet, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.9,
+          24.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "date": "2025-01-25",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 425776,
+        "deaths": 145,
+        "damages_usd": 520512629,
+        "description": "Volcanic Eruption impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "date": "2025-03-01",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Bangladesh",
+        "region": "Sylhet",
+        "affected_population": 47717,
+        "deaths": 214,
+        "damages_usd": 327534413,
+        "description": "Volcanic Eruption impacting Sylhet, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.9,
+          24.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "date": "2024-11-19",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 361865,
+        "deaths": 185,
+        "damages_usd": 876744691,
+        "description": "Volcanic Eruption impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "date": "2025-09-30",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 268546,
+        "deaths": 85,
+        "damages_usd": 71493125,
+        "description": "Volcanic Eruption impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "date": "2025-06-08",
+        "disaster_type": "Earthquake",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 438047,
+        "deaths": 91,
+        "damages_usd": 44459377,
+        "description": "Earthquake impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "date": "2025-09-25",
+        "disaster_type": "Heatwave",
+        "country": "Pakistan",
+        "region": "Sindh",
+        "affected_population": 29216,
+        "deaths": 146,
+        "damages_usd": 220208775,
+        "description": "Heatwave impacting Sindh, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          25.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "date": "2025-05-29",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Pakistan",
+        "region": "Sindh",
+        "affected_population": 363585,
+        "deaths": 19,
+        "damages_usd": 420590313,
+        "description": "Volcanic Eruption impacting Sindh, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          25.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "date": "2024-12-14",
+        "disaster_type": "Drought",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 446704,
+        "deaths": 150,
+        "damages_usd": 118801714,
+        "description": "Drought impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "date": "2025-06-01",
+        "disaster_type": "Heatwave",
+        "country": "Nigeria",
+        "region": "Kano",
+        "affected_population": 119078,
+        "deaths": 10,
+        "damages_usd": 815951053,
+        "description": "Heatwave impacting Kano, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "date": "2025-02-17",
+        "disaster_type": "Heatwave",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 15252,
+        "deaths": 230,
+        "damages_usd": 427553988,
+        "description": "Heatwave impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "date": "2024-10-28",
+        "disaster_type": "Wildfire",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 437154,
+        "deaths": 223,
+        "damages_usd": 178185015,
+        "description": "Wildfire impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "date": "2025-09-19",
+        "disaster_type": "Heatwave",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 500465,
+        "deaths": 40,
+        "damages_usd": 357061669,
+        "description": "Heatwave impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "date": "2025-08-09",
+        "disaster_type": "Flood",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 517386,
+        "deaths": 247,
+        "damages_usd": 612803280,
+        "description": "Flood impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "date": "2025-03-07",
+        "disaster_type": "Landslide",
+        "country": "Bangladesh",
+        "region": "Sylhet",
+        "affected_population": 541220,
+        "deaths": 133,
+        "damages_usd": 847407706,
+        "description": "Landslide impacting Sylhet, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.9,
+          24.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "date": "2025-07-22",
+        "disaster_type": "Volcanic Eruption",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 312984,
+        "deaths": 72,
+        "damages_usd": 594112478,
+        "description": "Volcanic Eruption impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "date": "2025-09-23",
+        "disaster_type": "Landslide",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 67571,
+        "deaths": 101,
+        "damages_usd": 320731597,
+        "description": "Landslide impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "date": "2025-02-01",
+        "disaster_type": "Wildfire",
+        "country": "Australia",
+        "region": "New South Wales",
+        "affected_population": 318157,
+        "deaths": 157,
+        "damages_usd": 713252774,
+        "description": "Wildfire impacting New South Wales, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2,
+          -33.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "date": "2025-01-28",
+        "disaster_type": "Earthquake",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 44228,
+        "deaths": 49,
+        "damages_usd": 292179013,
+        "description": "Earthquake impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 106,
+        "date": "2025-09-01",
+        "disaster_type": "Wildfire",
+        "country": "Ethiopia",
+        "region": "Somali",
+        "affected_population": 319649,
+        "deaths": 25,
+        "damages_usd": 465818214,
+        "description": "Wildfire impacting Somali, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 107,
+        "date": "2025-08-20",
+        "disaster_type": "Flood",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 281768,
+        "deaths": 47,
+        "damages_usd": 310370163,
+        "description": "Flood impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "date": "2025-01-08",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 43909,
+        "deaths": 62,
+        "damages_usd": 444734227,
+        "description": "Storm (Cyclone) impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
+        "date": "2024-11-18",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Argentina",
+        "region": "Cordoba",
+        "affected_population": 77756,
+        "deaths": 16,
+        "damages_usd": 440761033,
+        "description": "Volcanic Eruption impacting Cordoba, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2,
+          -31.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "date": "2025-05-01",
+        "disaster_type": "Heatwave",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 118831,
+        "deaths": 245,
+        "damages_usd": 526487829,
+        "description": "Heatwave impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "date": "2024-12-16",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 506620,
+        "deaths": 80,
+        "damages_usd": 252701651,
+        "description": "Storm (Cyclone) impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "date": "2024-11-22",
+        "disaster_type": "Landslide",
+        "country": "Turkey",
+        "region": "Istanbul",
+        "affected_population": 568993,
+        "deaths": 17,
+        "damages_usd": 707884230,
+        "description": "Landslide impacting Istanbul, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          41.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 113,
+        "date": "2025-04-08",
+        "disaster_type": "Wildfire",
+        "country": "South Africa",
+        "region": "Gauteng",
+        "affected_population": 120590,
+        "deaths": 214,
+        "damages_usd": 814237067,
+        "description": "Wildfire impacting Gauteng, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0,
+          -26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 114,
+        "date": "2024-12-30",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 296499,
+        "deaths": 115,
+        "damages_usd": 860193271,
+        "description": "Storm (Cyclone) impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 115,
+        "date": "2025-09-02",
+        "disaster_type": "Landslide",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 570530,
+        "deaths": 31,
+        "damages_usd": 81604852,
+        "description": "Landslide impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 116,
+        "date": "2025-05-30",
+        "disaster_type": "Wildfire",
+        "country": "USA",
+        "region": "California",
+        "affected_population": 399029,
+        "deaths": 89,
+        "damages_usd": 715870320,
+        "description": "Wildfire impacting California, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4,
+          36.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 117,
+        "date": "2025-04-17",
+        "disaster_type": "Heatwave",
+        "country": "Germany",
+        "region": "Bavaria",
+        "affected_population": 187287,
+        "deaths": 132,
+        "damages_usd": 8135494,
+        "description": "Heatwave impacting Bavaria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          48.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 118,
+        "date": "2025-09-28",
+        "disaster_type": "Drought",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 401665,
+        "deaths": 148,
+        "damages_usd": 445149095,
+        "description": "Drought impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 119,
+        "date": "2024-11-26",
+        "disaster_type": "Drought",
+        "country": "Brazil",
+        "region": "Amazonas",
+        "affected_population": 444221,
+        "deaths": 182,
+        "damages_usd": 183468178,
+        "description": "Drought impacting Amazonas, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          -3.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "date": "2025-04-05",
+        "disaster_type": "Earthquake",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 371064,
+        "deaths": 149,
+        "damages_usd": 751339061,
+        "description": "Earthquake impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 121,
+        "date": "2025-01-21",
+        "disaster_type": "Earthquake",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 173601,
+        "deaths": 97,
+        "damages_usd": 266535301,
+        "description": "Earthquake impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 122,
+        "date": "2025-05-26",
+        "disaster_type": "Drought",
+        "country": "USA",
+        "region": "California",
+        "affected_population": 532279,
+        "deaths": 227,
+        "damages_usd": 828597910,
+        "description": "Drought impacting California, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4,
+          36.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 123,
+        "date": "2025-03-31",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Philippines",
+        "region": "Luzon",
+        "affected_population": 156038,
+        "deaths": 17,
+        "damages_usd": 393249525,
+        "description": "Volcanic Eruption impacting Luzon, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          14.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 124,
+        "date": "2024-11-21",
+        "disaster_type": "Volcanic Eruption",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 556581,
+        "deaths": 69,
+        "damages_usd": 159279545,
+        "description": "Volcanic Eruption impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 125,
+        "date": "2025-10-06",
+        "disaster_type": "Drought",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 400011,
+        "deaths": 37,
+        "damages_usd": 176251654,
+        "description": "Drought impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 126,
+        "date": "2024-11-25",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Brazil",
+        "region": "Amazonas",
+        "affected_population": 448120,
+        "deaths": 247,
+        "damages_usd": 94838437,
+        "description": "Volcanic Eruption impacting Amazonas, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          -3.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 127,
+        "date": "2025-09-14",
+        "disaster_type": "Heatwave",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 50560,
+        "deaths": 14,
+        "damages_usd": 847626888,
+        "description": "Heatwave impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 128,
+        "date": "2025-03-27",
+        "disaster_type": "Flood",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 169673,
+        "deaths": 226,
+        "damages_usd": 203201661,
+        "description": "Flood impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 129,
+        "date": "2025-06-04",
+        "disaster_type": "Drought",
+        "country": "Brazil",
+        "region": "Amazonas",
+        "affected_population": 276900,
+        "deaths": 76,
+        "damages_usd": 764835680,
+        "description": "Drought impacting Amazonas, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          -3.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 130,
+        "date": "2025-07-11",
+        "disaster_type": "Wildfire",
+        "country": "Mexico",
+        "region": "Yucatan",
+        "affected_population": 370752,
+        "deaths": 203,
+        "damages_usd": 593459525,
+        "description": "Wildfire impacting Yucatan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6,
+          20.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 131,
+        "date": "2025-02-25",
+        "disaster_type": "Drought",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 210914,
+        "deaths": 41,
+        "damages_usd": 445721026,
+        "description": "Drought impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 132,
+        "date": "2025-09-20",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 337958,
+        "deaths": 196,
+        "damages_usd": 725966596,
+        "description": "Storm (Cyclone) impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 133,
+        "date": "2024-10-29",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Nepal",
+        "region": "Bagmati",
+        "affected_population": 39408,
+        "deaths": 31,
+        "damages_usd": 117646414,
+        "description": "Storm (Cyclone) impacting Bagmati, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3,
+          27.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 134,
+        "date": "2025-01-12",
+        "disaster_type": "Landslide",
+        "country": "Canada",
+        "region": "British Columbia",
+        "affected_population": 373478,
+        "deaths": 88,
+        "damages_usd": 223829498,
+        "description": "Landslide impacting British Columbia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 135,
+        "date": "2025-03-29",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "UK",
+        "region": "Scotland",
+        "affected_population": 568857,
+        "deaths": 201,
+        "damages_usd": 809776189,
+        "description": "Storm (Cyclone) impacting Scotland, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3,
+          56.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 136,
+        "date": "2025-08-27",
+        "disaster_type": "Wildfire",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 571537,
+        "deaths": 61,
+        "damages_usd": 710894726,
+        "description": "Wildfire impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 137,
+        "date": "2025-07-27",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 583958,
+        "deaths": 197,
+        "damages_usd": 870780008,
+        "description": "Storm (Cyclone) impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 138,
+        "date": "2025-03-24",
+        "disaster_type": "Drought",
+        "country": "Turkey",
+        "region": "Istanbul",
+        "affected_population": 98795,
+        "deaths": 156,
+        "damages_usd": 825811111,
+        "description": "Drought impacting Istanbul, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          41.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 139,
+        "date": "2025-04-10",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 485589,
+        "deaths": 78,
+        "damages_usd": 209146558,
+        "description": "Storm (Cyclone) impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 140,
+        "date": "2025-04-24",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 80774,
+        "deaths": 122,
+        "damages_usd": 498739412,
+        "description": "Volcanic Eruption impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 141,
+        "date": "2024-12-05",
+        "disaster_type": "Earthquake",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 352352,
+        "deaths": 119,
+        "damages_usd": 788684339,
+        "description": "Earthquake impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 142,
+        "date": "2025-09-27",
+        "disaster_type": "Earthquake",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 301101,
+        "deaths": 166,
+        "damages_usd": 444644405,
+        "description": "Earthquake impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 143,
+        "date": "2025-03-29",
+        "disaster_type": "Wildfire",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 11547,
+        "deaths": 98,
+        "damages_usd": 303468162,
+        "description": "Wildfire impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 144,
+        "date": "2024-11-30",
+        "disaster_type": "Flood",
+        "country": "Ethiopia",
+        "region": "Somali",
+        "affected_population": 214197,
+        "deaths": 175,
+        "damages_usd": 241968802,
+        "description": "Flood impacting Somali, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 145,
+        "date": "2025-09-18",
+        "disaster_type": "Wildfire",
+        "country": "Bangladesh",
+        "region": "Sylhet",
+        "affected_population": 129247,
+        "deaths": 167,
+        "damages_usd": 755134058,
+        "description": "Wildfire impacting Sylhet, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.9,
+          24.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 146,
+        "date": "2025-08-24",
+        "disaster_type": "Wildfire",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 210174,
+        "deaths": 70,
+        "damages_usd": 672459132,
+        "description": "Wildfire impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 147,
+        "date": "2025-07-18",
+        "disaster_type": "Volcanic Eruption",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 199367,
+        "deaths": 149,
+        "damages_usd": 770613631,
+        "description": "Volcanic Eruption impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 148,
+        "date": "2024-12-22",
+        "disaster_type": "Landslide",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 524491,
+        "deaths": 207,
+        "damages_usd": 533844277,
+        "description": "Landslide impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 149,
+        "date": "2025-01-28",
+        "disaster_type": "Drought",
+        "country": "Argentina",
+        "region": "Cordoba",
+        "affected_population": 78646,
+        "deaths": 23,
+        "damages_usd": 825679972,
+        "description": "Drought impacting Cordoba, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2,
+          -31.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 150,
+        "date": "2025-05-02",
+        "disaster_type": "Heatwave",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 503741,
+        "deaths": 170,
+        "damages_usd": 732796036,
+        "description": "Heatwave impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 151,
+        "date": "2024-12-26",
+        "disaster_type": "Earthquake",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 481066,
+        "deaths": 207,
+        "damages_usd": 314607853,
+        "description": "Earthquake impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 152,
+        "date": "2025-08-17",
+        "disaster_type": "Drought",
+        "country": "Argentina",
+        "region": "Cordoba",
+        "affected_population": 240737,
+        "deaths": 64,
+        "damages_usd": 458519446,
+        "description": "Drought impacting Cordoba, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2,
+          -31.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 153,
+        "date": "2025-02-12",
+        "disaster_type": "Flood",
+        "country": "Philippines",
+        "region": "Luzon",
+        "affected_population": 391549,
+        "deaths": 156,
+        "damages_usd": 194400029,
+        "description": "Flood impacting Luzon, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          14.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 154,
+        "date": "2025-06-20",
+        "disaster_type": "Flood",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 525473,
+        "deaths": 233,
+        "damages_usd": 54248744,
+        "description": "Flood impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 155,
+        "date": "2025-05-28",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 350544,
+        "deaths": 111,
+        "damages_usd": 736829598,
+        "description": "Volcanic Eruption impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 156,
+        "date": "2025-06-12",
+        "disaster_type": "Flood",
+        "country": "Australia",
+        "region": "New South Wales",
+        "affected_population": 172672,
+        "deaths": 52,
+        "damages_usd": 733185575,
+        "description": "Flood impacting New South Wales, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2,
+          -33.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 157,
+        "date": "2025-03-12",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 229255,
+        "deaths": 211,
+        "damages_usd": 597181559,
+        "description": "Volcanic Eruption impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 158,
+        "date": "2025-02-16",
+        "disaster_type": "Earthquake",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 101625,
+        "deaths": 245,
+        "damages_usd": 231936973,
+        "description": "Earthquake impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 159,
+        "date": "2025-03-22",
+        "disaster_type": "Drought",
+        "country": "Pakistan",
+        "region": "Sindh",
+        "affected_population": 19883,
+        "deaths": 121,
+        "damages_usd": 385896878,
+        "description": "Drought impacting Sindh, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          25.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 160,
+        "date": "2025-01-06",
+        "disaster_type": "Heatwave",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 467012,
+        "deaths": 9,
+        "damages_usd": 296043440,
+        "description": "Heatwave impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 161,
+        "date": "2024-10-28",
+        "disaster_type": "Heatwave",
+        "country": "Germany",
+        "region": "Bavaria",
+        "affected_population": 238832,
+        "deaths": 145,
+        "damages_usd": 628807371,
+        "description": "Heatwave impacting Bavaria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          48.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 162,
+        "date": "2024-11-26",
+        "disaster_type": "Landslide",
+        "country": "USA",
+        "region": "California",
+        "affected_population": 278409,
+        "deaths": 245,
+        "damages_usd": 647001935,
+        "description": "Landslide impacting California, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4,
+          36.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 163,
+        "date": "2024-11-16",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 39772,
+        "deaths": 108,
+        "damages_usd": 165898498,
+        "description": "Volcanic Eruption impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 164,
+        "date": "2025-07-22",
+        "disaster_type": "Flood",
+        "country": "Indonesia",
+        "region": "Java",
+        "affected_population": 54247,
+        "deaths": 236,
+        "damages_usd": 597777420,
+        "description": "Flood impacting Java, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.8,
+          -7.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 165,
+        "date": "2024-11-27",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Chile",
+        "region": "Atacama",
+        "affected_population": 481905,
+        "deaths": 177,
+        "damages_usd": 854941649,
+        "description": "Volcanic Eruption impacting Atacama, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -26.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 166,
+        "date": "2025-03-21",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Spain",
+        "region": "Andalusia",
+        "affected_population": 36696,
+        "deaths": 103,
+        "damages_usd": 184598521,
+        "description": "Storm (Cyclone) impacting Andalusia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          37.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 167,
+        "date": "2024-12-17",
+        "disaster_type": "Heatwave",
+        "country": "Mexico",
+        "region": "Yucatan",
+        "affected_population": 220061,
+        "deaths": 128,
+        "damages_usd": 153645648,
+        "description": "Heatwave impacting Yucatan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6,
+          20.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 168,
+        "date": "2025-02-07",
+        "disaster_type": "Heatwave",
+        "country": "Germany",
+        "region": "Bavaria",
+        "affected_population": 194177,
+        "deaths": 16,
+        "damages_usd": 294824351,
+        "description": "Heatwave impacting Bavaria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          48.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 169,
+        "date": "2025-04-15",
+        "disaster_type": "Earthquake",
+        "country": "Turkey",
+        "region": "Istanbul",
+        "affected_population": 560904,
+        "deaths": 34,
+        "damages_usd": 77007592,
+        "description": "Earthquake impacting Istanbul, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          41.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 170,
+        "date": "2024-10-16",
+        "disaster_type": "Heatwave",
+        "country": "Indonesia",
+        "region": "Java",
+        "affected_population": 264474,
+        "deaths": 209,
+        "damages_usd": 334305711,
+        "description": "Heatwave impacting Java, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.8,
+          -7.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 171,
+        "date": "2025-06-01",
+        "disaster_type": "Drought",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 81309,
+        "deaths": 110,
+        "damages_usd": 4562589,
+        "description": "Drought impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 172,
+        "date": "2025-03-27",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Nigeria",
+        "region": "Kano",
+        "affected_population": 108228,
+        "deaths": 56,
+        "damages_usd": 619587984,
+        "description": "Storm (Cyclone) impacting Kano, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          12.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 173,
+        "date": "2025-08-28",
+        "disaster_type": "Wildfire",
+        "country": "Argentina",
+        "region": "Cordoba",
+        "affected_population": 23798,
+        "deaths": 200,
+        "damages_usd": 129629306,
+        "description": "Wildfire impacting Cordoba, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2,
+          -31.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 174,
+        "date": "2025-01-09",
+        "disaster_type": "Wildfire",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 341648,
+        "deaths": 115,
+        "damages_usd": 111564648,
+        "description": "Wildfire impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 175,
+        "date": "2024-11-16",
+        "disaster_type": "Heatwave",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 561426,
+        "deaths": 188,
+        "damages_usd": 653563192,
+        "description": "Heatwave impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 176,
+        "date": "2024-10-26",
+        "disaster_type": "Drought",
+        "country": "UK",
+        "region": "Scotland",
+        "affected_population": 495310,
+        "deaths": 229,
+        "damages_usd": 492297575,
+        "description": "Drought impacting Scotland, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3,
+          56.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 177,
+        "date": "2025-05-09",
+        "disaster_type": "Landslide",
+        "country": "Ethiopia",
+        "region": "Somali",
+        "affected_population": 450893,
+        "deaths": 82,
+        "damages_usd": 804848083,
+        "description": "Landslide impacting Somali, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 178,
+        "date": "2025-02-21",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "France",
+        "region": "Provence",
+        "affected_population": 425018,
+        "deaths": 18,
+        "damages_usd": 505987626,
+        "description": "Storm (Cyclone) impacting Provence, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 179,
+        "date": "2025-05-30",
+        "disaster_type": "Drought",
+        "country": "Pakistan",
+        "region": "Sindh",
+        "affected_population": 578783,
+        "deaths": 112,
+        "damages_usd": 856085765,
+        "description": "Drought impacting Sindh, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          25.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 180,
+        "date": "2025-09-01",
+        "disaster_type": "Landslide",
+        "country": "UK",
+        "region": "Scotland",
+        "affected_population": 555027,
+        "deaths": 152,
+        "damages_usd": 141735909,
+        "description": "Landslide impacting Scotland, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3,
+          56.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 181,
+        "date": "2025-05-20",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 460843,
+        "deaths": 202,
+        "damages_usd": 628897863,
+        "description": "Storm (Cyclone) impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 182,
+        "date": "2025-02-13",
+        "disaster_type": "Heatwave",
+        "country": "Nepal",
+        "region": "Bagmati",
+        "affected_population": 490285,
+        "deaths": 26,
+        "damages_usd": 841670420,
+        "description": "Heatwave impacting Bagmati, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3,
+          27.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 183,
+        "date": "2025-01-24",
+        "disaster_type": "Earthquake",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 273222,
+        "deaths": 210,
+        "damages_usd": 337663458,
+        "description": "Earthquake impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 184,
+        "date": "2025-03-01",
+        "disaster_type": "Wildfire",
+        "country": "Mexico",
+        "region": "Yucatan",
+        "affected_population": 35687,
+        "deaths": 21,
+        "damages_usd": 712701540,
+        "description": "Wildfire impacting Yucatan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6,
+          20.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 185,
+        "date": "2025-04-09",
+        "disaster_type": "Earthquake",
+        "country": "Pakistan",
+        "region": "Sindh",
+        "affected_population": 78640,
+        "deaths": 53,
+        "damages_usd": 540205161,
+        "description": "Earthquake impacting Sindh, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          25.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 186,
+        "date": "2025-09-14",
+        "disaster_type": "Flood",
+        "country": "Japan",
+        "region": "Hokkaido",
+        "affected_population": 489022,
+        "deaths": 10,
+        "damages_usd": 77244241,
+        "description": "Flood impacting Hokkaido, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3,
+          43.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 187,
+        "date": "2025-04-08",
+        "disaster_type": "Heatwave",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 153558,
+        "deaths": 158,
+        "damages_usd": 832742947,
+        "description": "Heatwave impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 188,
+        "date": "2025-08-03",
+        "disaster_type": "Heatwave",
+        "country": "Germany",
+        "region": "Bavaria",
+        "affected_population": 319023,
+        "deaths": 75,
+        "damages_usd": 292935568,
+        "description": "Heatwave impacting Bavaria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          48.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 189,
+        "date": "2024-12-02",
+        "disaster_type": "Drought",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 28953,
+        "deaths": 250,
+        "damages_usd": 499409025,
+        "description": "Drought impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 190,
+        "date": "2024-12-29",
+        "disaster_type": "Heatwave",
+        "country": "India",
+        "region": "Assam",
+        "affected_population": 81558,
+        "deaths": 90,
+        "damages_usd": 62137030,
+        "description": "Heatwave impacting Assam, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 191,
+        "date": "2024-12-25",
+        "disaster_type": "Storm (Cyclone)",
+        "country": "Brazil",
+        "region": "Amazonas",
+        "affected_population": 578500,
+        "deaths": 1,
+        "damages_usd": 54091754,
+        "description": "Storm (Cyclone) impacting Amazonas, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          -3.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 192,
+        "date": "2025-09-15",
+        "disaster_type": "Drought",
+        "country": "Nepal",
+        "region": "Bagmati",
+        "affected_population": 587539,
+        "deaths": 39,
+        "damages_usd": 693803904,
+        "description": "Drought impacting Bagmati, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3,
+          27.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 193,
+        "date": "2025-05-23",
+        "disaster_type": "Heatwave",
+        "country": "Italy",
+        "region": "Calabria",
+        "affected_population": 520521,
+        "deaths": 237,
+        "damages_usd": 817474941,
+        "description": "Heatwave impacting Calabria, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 194,
+        "date": "2025-08-20",
+        "disaster_type": "Heatwave",
+        "country": "Brazil",
+        "region": "Amazonas",
+        "affected_population": 256671,
+        "deaths": 55,
+        "damages_usd": 15393215,
+        "description": "Heatwave impacting Amazonas, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          -3.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 195,
+        "date": "2025-06-14",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "affected_population": 468761,
+        "deaths": 196,
+        "damages_usd": 43656380,
+        "description": "Volcanic Eruption impacting Antioquia, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 196,
+        "date": "2025-05-16",
+        "disaster_type": "Earthquake",
+        "country": "Greece",
+        "region": "Peloponnese",
+        "affected_population": 107191,
+        "deaths": 199,
+        "damages_usd": 617829576,
+        "description": "Earthquake impacting Peloponnese, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          37.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 197,
+        "date": "2025-08-03",
+        "disaster_type": "Volcanic Eruption",
+        "country": "South Africa",
+        "region": "Gauteng",
+        "affected_population": 520459,
+        "deaths": 12,
+        "damages_usd": 407031886,
+        "description": "Volcanic Eruption impacting Gauteng, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0,
+          -26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 198,
+        "date": "2024-11-04",
+        "disaster_type": "Wildfire",
+        "country": "Mexico",
+        "region": "Yucatan",
+        "affected_population": 464109,
+        "deaths": 128,
+        "damages_usd": 563693657,
+        "description": "Wildfire impacting Yucatan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6,
+          20.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 199,
+        "date": "2025-04-30",
+        "disaster_type": "Volcanic Eruption",
+        "country": "Australia",
+        "region": "New South Wales",
+        "affected_population": 391753,
+        "deaths": 27,
+        "damages_usd": 776447515,
+        "description": "Volcanic Eruption impacting New South Wales, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2,
+          -33.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 200,
+        "date": "2025-02-06",
+        "disaster_type": "Wildfire",
+        "country": "China",
+        "region": "Sichuan",
+        "affected_population": 242872,
+        "deaths": 144,
+        "damages_usd": 592724594,
+        "description": "Wildfire impacting Sichuan, causing significant effects on population and infrastructure.",
+        "source": "Synthetic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          30.6
+        ]
+      }
+    }
+  ]
+}

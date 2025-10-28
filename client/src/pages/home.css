@@ -1,0 +1,5 @@
+.home-bg{min-height:100vh;background:url('/bg.jpg') center/cover no-repeat fixed;display:flex}
+.home-bg .overlay{background:rgba(6,10,22,0.6);backdrop-filter:saturate(140%) blur(1px);flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}
+.home-bg h1{font-size:48px;margin:0 0 10px}
+.home-bg p{color:#d6e2ff;margin:0 0 24px}
+.choices{display:flex;gap:16px}

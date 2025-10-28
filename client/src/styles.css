@@ -1,0 +1,59 @@
+/* Global styles */
+:root{ --accent:#ff6b35; --bg:#0b1220; --card:#101a33; --text:#e8eefc; --muted:#9bb0d3; }
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;padding-top:64px;font-size:16px}
+a{color:inherit}
+button{cursor:pointer;border:none;padding:12px 18px;border-radius:12px;background:var(--accent);color:white;font-weight:700;transition:transform .15s ease, box-shadow .15s ease, background .15s}
+button.secondary{background:#1f2b4d}
+button:hover{transform:translateY(-1px);box-shadow:0 10px 20px rgba(0,0,0,0.3)}
+input,select,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid #24345f;background:rgba(15,23,48,0.75);color:var(--text);font-size:16px}
+.label{font-size:14px;color:#cdd8f5}
+.container{max-width:1280px;margin:0 auto;padding:24px}
+.card{background:rgba(16,26,51,0.75);border:1px solid rgba(34,50,91,0.8);border-radius:20px;padding:20px}
+.card:hover{border-color:#3a5196;box-shadow:0 12px 28px rgba(0,0,0,0.25)}
+.grid{display:grid;gap:16px}
+.grid.two{grid-template-columns:repeat(2,1fr)}
+.grid.three{grid-template-columns:repeat(3,1fr)}
+.grid.four{grid-template-columns:repeat(4,1fr)}
+.list{display:flex;flex-direction:column;gap:10px}
+.badge{display:inline-block;padding:4px 10px;border-radius:999px;background:#1f2b4d;color:#d6e2ff;margin-right:6px}
+.hr{height:1px;background:#22325b;margin:14px 0}
+.small{color:var(--muted);font-size:12px}
+
+/* Navbar */
+.navbar{position:fixed;top:0;left:0;right:0;height:64px;background:rgba(230,236,255,0.35);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid rgba(255,255,255,0.25);display:flex;align-items:center;justify-content:space-between;padding:0 16px;z-index:1000}
+.nav-left{display:flex;align-items:center;gap:10px;font-weight:700;cursor:pointer}
+.brand{letter-spacing:0.3px}
+.nav-links{display:flex;gap:12px}
+.nav-links a{padding:8px 10px;border-radius:8px;color:#0b1220;text-decoration:none;font-weight:600}
+.nav-links a.active,.nav-links a:hover{background:rgba(255,255,255,0.5);color:#0b1220}
+.nav-right{display:flex;align-items:center;gap:8px}
+
+/* Page backgrounds */
+.page-bg{min-height:calc(100vh - 64px);background-position:center;background-size:cover;background-attachment:fixed}
+.overlay-scrim{background:linear-gradient(to bottom, rgba(11,18,32,0.55), rgba(11,18,32,0.8));min-height:inherit}
+.page-bg.victim{background-image:url('/Victim.png')}
+.page-bg.volunteer{background-image:url('/Volunteer.png')}
+.page-bg.auth.victim{background-image:url('/Victim_Login.png')}
+.page-bg.auth.volunteer{background-image:url('/Volunteer_Login.png')}
+
+/* Floating sections */
+.float-wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;padding:24px}
+.float-full{grid-column:1 / -1}
+.card.elevated{box-shadow:0 10px 30px rgba(0,0,0,0.25)}
+
+/* Victim page specifics */
+.resource-grid{display:grid;gap:10px}
+.resource-grid.grid.four label.badge{display:flex;align-items:center;gap:8px;justify-content:flex-start}
+.precautions-large{max-height:none}
+.precautions-list li{font-size:14px;line-height:1.6}
+
+/* Bigger headings */
+h1{font-size:56px}
+h2{font-size:28px}
+h3{font-size:20px}
+
+/* Modal */
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.55);display:flex;align-items:center;justify-content:center;z-index:1100}
+.modal{width:min(560px,90vw);background:#101a33;border:1px solid #22325b;border-radius:16px;padding:16px}
