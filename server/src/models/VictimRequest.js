@@ -16,6 +16,21 @@ const VictimRequestSchema = new mongoose.Schema(
     email: { type: String },
     phone: { type: String },
     location: { type: String },
+    coordinates: {
+      type: {
+        type: String,
+        enum: ['Point'],
+        default: 'Point',
+      },
+      coordinates: {
+        type: [Number], // [longitude, latitude]
+        required: false,
+      },
+    },
+    weather: {
+      type: Object,
+      default: null,
+    },
     disasterType: {
       type: String,
       enum: ['Earthquake', 'Fire', 'Tsunami', 'Flood', 'Cyclone', 'Landslide', 'Pandemic', 'Other'],

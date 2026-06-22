@@ -9,8 +9,39 @@ const router = Router();
 // Get all victim requests (for volunteers)
 router.get('/requests', auth(['volunteer']), async (req, res) => {
   try {
-    const items = await VictimRequest.find().sort({ createdAt: -1 }).populate('victim', 'name email phone location').populate('assignedVolunteer', 'name email');
-    res.json(items);
+    const items = await VictimRequest.find()
+      .sort({ createdAt: -1 })
+      .populate('victim', 'name email phone location')
+      .populate('assignedVolunteer', 'name email')
+      .lean();
+      
+    // Format coordinates for the frontend and ensure _id is a string
+    const formattedItems = items.map(item => {
+      const formattedItem = { ...item };
+      
+      // Convert _id to string
+      formattedItem._id = item._id.toString();
+      
+      // Format coordinates if they exist
+      if (item.coordinates && item.coordinates.coordinates) {
+        const [lng, lat] = item.coordinates.coordinates;
+        formattedItem.coordinates = { lat, lng };
+      }
+      
+      // Convert victim _id to string if it exists
+      if (formattedItem.victim && formattedItem.victim._id) {
+        formattedItem.victim._id = formattedItem.victim._id.toString();
+      }
+      
+      // Convert assignedVolunteer _id to string if it exists
+      if (formattedItem.assignedVolunteer && formattedItem.assignedVolunteer._id) {
+        formattedItem.assignedVolunteer._id = formattedItem.assignedVolunteer._id.toString();
+      }
+      
+      return formattedItem;
+    });
+    
+    res.json(formattedItems);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
@@ -27,7 +58,18 @@ router.post('/requests/:id/accept', auth(['volunteer']), async (req, res) => {
     item.assignedVolunteer = req.user.id;
     item.status = 'accepted';
     await item.save();
-    res.json(item);
+    
+    // Convert the document to a plain object and format the response
+    const response = item.toObject();
+    if (response.coordinates && response.coordinates.coordinates) {
+      const [lng, lat] = response.coordinates.coordinates;
+      response.coordinates = { lat, lng };
+    }
+    
+    // Ensure _id is a string
+    response._id = response._id.toString();
+    
+    res.json(response);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }

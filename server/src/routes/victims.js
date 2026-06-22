@@ -8,9 +8,23 @@ const router = Router();
 // Create a new victim request
 router.post('/requests', auth(['victim']), async (req, res) => {
   try {
-    const { disasterType, resourcesNeeded = [], description, phone, email, location, name } = req.body;
+    const { 
+      disasterType, 
+      resourcesNeeded = [], 
+      description, 
+      phone, 
+      email, 
+      location, 
+      name, 
+      coordinates,
+      weather,
+      timestamp
+    } = req.body;
+    
     const precautions = [...BASE_PRECAUTIONS, ...(PRECAUTIONS_BY_TYPE[disasterType] || [])];
-    const doc = await VictimRequest.create({
+    
+    // Prepare the request data
+    const requestData = {
       victim: req.user.id,
       name: name || req.user.name,
       email,
@@ -20,7 +34,23 @@ router.post('/requests', auth(['victim']), async (req, res) => {
       resourcesNeeded,
       description,
       precautions,
-    });
+      createdAt: timestamp ? new Date(timestamp) : new Date()
+    };
+    
+    // Add coordinates if available
+    if (coordinates && coordinates.lat && coordinates.lng) {
+      requestData.coordinates = {
+        type: 'Point',
+        coordinates: [coordinates.lng, coordinates.lat] // GeoJSON uses [longitude, latitude]
+      };
+    }
+    
+    // Add weather data if available
+    if (weather) {
+      requestData.weather = weather;
+    }
+    
+    const doc = await VictimRequest.create(requestData);
     res.status(201).json(doc);
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -30,8 +60,25 @@ router.post('/requests', auth(['victim']), async (req, res) => {
 // Get my victim requests
 router.get('/me', auth(['victim']), async (req, res) => {
   try {
-    const items = await VictimRequest.find({ victim: req.user.id }).sort({ createdAt: -1 }).populate('assignedVolunteer', 'name email');
-    res.json(items);
+    const items = await VictimRequest.find({ victim: req.user.id })
+      .sort({ createdAt: -1 })
+      .populate('assignedVolunteer', 'name email')
+      .lean();
+      
+    // Format coordinates for the frontend
+    const formattedItems = items.map(item => {
+      if (item.coordinates && item.coordinates.coordinates) {
+        const [lng, lat] = item.coordinates.coordinates;
+        return {
+          ...item,
+          coordinates: { lat, lng },
+          _id: item._id.toString()
+        };
+      }
+      return { ...item, _id: item._id.toString() };
+    });
+    
+    res.json(formattedItems);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }

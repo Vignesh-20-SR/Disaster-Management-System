@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { api } from '../api/axios'
+import { getWeatherByCoords, getLocationName, getWeatherIcon } from '../utils/weather'
 
 const DISASTERS = ['Earthquake','Fire','Tsunami','Flood','Cyclone','Landslide','Pandemic','Other']
 const RESOURCES = ['Food','Water','Clothes','Medical','Shelter','Rescue','Transport','Communication']
@@ -26,7 +27,9 @@ export default function Victim(){
     resourcesNeeded: [],
     description: '',
     otherType: '',
-    extraResources: ''
+    extraResources: '',
+    coordinates: null,
+    weather: null
   })
   const [myRequests, setMyRequests] = useState([])
   const [precautions, setPrecautions] = useState([])
@@ -51,24 +54,76 @@ export default function Victim(){
     setForm(f=> ({...f, resourcesNeeded: f.resourcesNeeded.includes(r) ? f.resourcesNeeded.filter(x=>x!==r) : [...f.resourcesNeeded, r]}))
   }
 
-  async function submit(e){
-    e.preventDefault(); setLoading(true)
-    try{
-      const payload = { ...form }
+  async function getCurrentLocation() {
+    return new Promise((resolve, reject) => {
+      if (!navigator.geolocation) {
+        reject(new Error('Geolocation is not supported by your browser'));
+        return;
+      }
+
+      navigator.geolocation.getCurrentPosition(
+        async (position) => {
+          try {
+            const { latitude, longitude } = position.coords;
+            const locationName = await getLocationName(latitude, longitude);
+            const weatherData = await getWeatherByCoords(latitude, longitude);
+            
+            setForm(prev => ({
+              ...prev,
+              location: locationName,
+              coordinates: { lat: latitude, lng: longitude },
+              weather: weatherData
+            }));
+            
+            resolve({ latitude, longitude, locationName, weather: weatherData });
+          } catch (error) {
+            console.error('Error getting location data:', error);
+            reject(error);
+          }
+        },
+        (error) => {
+          console.error('Error getting location:', error);
+          reject(error);
+        },
+        { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+      );
+    });
+  }
+
+  async function submit(e) {
+    e.preventDefault();
+    setLoading(true);
+    
+    try {
+      // First get the current location
+      await getCurrentLocation();
+      
+      // Then submit the form with the updated location and weather data
+      const payload = { 
+        ...form,
+        timestamp: new Date().toISOString()
+      };
+      
       if (payload.disasterType === 'Other' && payload.otherType.trim()) {
-        payload.disasterType = payload.otherType.trim()
+        payload.disasterType = payload.otherType.trim();
       }
+      
       if (payload.extraResources.trim()) {
-        const extras = payload.extraResources.split(',').map(s=>s.trim()).filter(Boolean)
-        payload.resourcesNeeded = Array.from(new Set([...(payload.resourcesNeeded||[]), ...extras]))
+        const extras = payload.extraResources.split(',').map(s => s.trim()).filter(Boolean);
+        payload.resourcesNeeded = Array.from(new Set([...(payload.resourcesNeeded || []), ...extras]));
       }
-      const {data} = await api.post('/victims/requests', payload)
-      setForm(f=>({...f, description:''}))
-      await loadMine()
-      alert('Request submitted')
-    }catch(err){
-      alert(err.response?.data?.error || err.message)
-    } finally { setLoading(false) }
+      
+      const { data } = await api.post('/victims/requests', payload);
+      setForm(f => ({ ...f, description: '', extraResources: '' }));
+      await loadMine();
+      alert('Request submitted with your current location and weather data');
+    } catch (err) {
+      console.error('Submission error:', err);
+      const errorMessage = err.response?.data?.error || err.message || 'Failed to submit request';
+      alert(errorMessage);
+    } finally { 
+      setLoading(false); 
+    }
   }
 
   function openReview(req){
@@ -184,8 +239,45 @@ export default function Victim(){
                 <input value={form.phone} onChange={e=>setForm({...form, phone:e.target.value})} />
               </div>
               <div>
-                <label className="small">Location</label>
-                <input value={form.location} onChange={e=>setForm({...form, location:e.target.value})} />
+                <div className="form-group">
+                  <label>Location</label>
+                  <div style={{display: 'flex', gap: '8px'}}>
+                    <input 
+                      type="text" 
+                      value={form.location} 
+                      onChange={e => setForm({...form, location: e.target.value})} 
+                      placeholder="Your current location will be detected"
+                      required 
+                      style={{flex: 1}}
+                    />
+                    <button 
+                      type="button" 
+                      onClick={getCurrentLocation}
+                      style={{
+                        padding: '0 12px',
+                        backgroundColor: '#f0f0f0',
+                        border: '1px solid #ccc',
+                        borderRadius: '4px',
+                        cursor: 'pointer',
+                        whiteSpace: 'nowrap'
+                      }}
+                    >
+                      📍 Get My Location
+                    </button>
+                  </div>
+                  {form.weather && (
+                    <div style={{marginTop: '8px', fontSize: '0.9em', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                      <img 
+                        src={getWeatherIcon(form.weather.weather?.[0]?.icon)} 
+                        alt={form.weather.weather?.[0]?.description}
+                        style={{width: '30px', height: '30px'}}
+                      />
+                      <span>
+                        {Math.round(form.weather.main?.temp)}°C, {form.weather.weather?.[0]?.description}
+                      </span>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
             <div className="grid two">
