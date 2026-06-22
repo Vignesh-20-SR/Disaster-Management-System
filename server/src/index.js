@@ -10,7 +10,9 @@ import volunteerRoutes from './routes/volunteers.js';
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: "https://vignesh-disaster-management.vercel.app"
+}));
 app.use(express.json());
 
 const MONGO_URI = process.env.MONGO_URI;
